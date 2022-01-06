@@ -20,6 +20,11 @@ public class RestRunner implements ApplicationRunner {
     @Autowired
     WebClient.Builder builder;
 
+//    WebClient webClient;
+//
+//    public RestRunner(WebClient.Builder builder) {
+//        this.webClient = builder.build();
+//    }
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
